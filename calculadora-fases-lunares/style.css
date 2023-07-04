@@ -1,0 +1,39 @@
+  body {
+    background-color: violet;
+  }
+  
+  h1 {
+    color: fuchsia;
+  }
+  
+  .calculator {
+    background-color: fuchsia;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  input[type="date"] {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: violet;
+    color: white;
+  }
+  
+  #result {
+    margin-top: 10px;
+  }
+  
+  
+  JavaScript (script.js):
+  javascript
+  function calculate() {
+    var dateInput = document.getElementById("dateInput").value;
+  }
+    /* Lógica para calcular las fases lunares y los días de crecimiento del cabello
+  
+    document.getElementById("result").innerHTML = "Resultado";
+
